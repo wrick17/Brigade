@@ -5,7 +5,7 @@ body{
 	background-color: #000;
 }
 
-.pop_up_wrapper{
+.pop-up-wrapper{
 	width: 900px;
 	margin: auto;
 	margin-top: 80px;
@@ -26,23 +26,23 @@ h2{
 	font-size: 16px;
 }
 
-.authorization_panel{
+.authorization-panel{
 	text-align: center;
 	padding: 10px;
 }
 
-.authorization_panel label{
+.authorization-panel label{
 	margin: 0px 5px;
 	color: #717171;
 	font-weight: bold;
 }
 
-.authorization_panel input{
+.authorization-panel input{
 	margin: 0px 35px 0px 5px;
 	font-size: 16px;
 }
 
-#authorization_amount{
+#authorization-amount{
 	font-size: 26px;
 	font-weight: bold;
 	color: #000;
@@ -66,7 +66,7 @@ h3{
 	margin-bottom: 5px;
 }
 
-.drill_details{
+.drill-details{
 	margin: 4px;
 	margin-left: 5px;
 	float: left;
@@ -76,11 +76,11 @@ h3{
 	font-family: Arimo;
 }
 
-.drill_details h3{
+.drill-details h3{
 	background-color: #8AC159;
 }
 
-.unit_details{
+.unit-details{
 	margin: 4px;
 	float: left;
 	width: 27%;
@@ -89,15 +89,15 @@ h3{
 	font-family: Arimo;
 }
 
-.unit_details table{
+.unit-details table{
 	width: 98%;
 }
 
-.unit_details h3{
+.unit-details h3{
 	background-color: #51ABDF;
 }
 
-.hotel_details{
+.hotel-details{
 	margin: 4px;
 	float: left;
 	width: 43%;
@@ -106,17 +106,17 @@ h3{
 	font-family: Arimo;
 }
 
-.right_section{
+.right-section{
 	float: left;
 	width: 43%;
 }
-.left_section{
+.left-section{
 	float: left;
 	width: 53%;
 }
 
 
-.hotel_details h3{
+.hotel-details h3{
 	background-color: #C19648;
 }
 
@@ -136,4 +136,62 @@ h3{
 	width: 49%;
 	vertical-align: top;
 	font-weight: bold;
+}
+
+.personal{
+	margin: 12px 10px;
+	height: inherit;
+}
+
+h4{
+	text-align: center;
+	vertical-align: middle;
+	height: 14px;
+}
+
+h5{
+	text-align: center;
+	margin: 0px;
+	padding: 3px 0px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-color: #D0D0D0;
+}
+
+.personnel{
+	width: 12%;
+	float: left;
+	margin-right: 2px;
+	background-color: #E4C20B;
+}
+
+.blocks{
+	width: 29%;
+	float: left;
+	height: inherit;
+	background-color: #E2E2E2;
+	padding: 0px 0px;
+	margin-left: 2px;
+}
+
+.blocks div{
+	width: 30%;
+	float: left;
+	padding: 3px;
+	font-weight: bolder;
+}
+
+.blocks div label:first-child{
+	width: 87%;
+	float: left;
+	text-align: center;
+	padding-right: 2px;
+	font-size: 12px;
+	color: #757575;
+}
+.blocks div label:last-child{
+	width: 10%;
+	float: left;
+	text-align: center;
+	font-size: 16px;
 }

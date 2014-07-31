@@ -6,99 +6,148 @@
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arimo">
   </head>
   <body>
-  	<div class="pop_up_wrapper">
+  	<div class="pop-up-wrapper">
 
   		<h2>Preliminary Unit Level TXARNG IDT Lodging Request</h2>
-  		<div class="authorization_panel">
+  		<div class="authorization-panel">
   			<label>Authorization Number</label>
-  			<input type="text" placeholder="authorization number" value="TX3420985" id="authorization_id" disabled/>
+  			<input type="text" placeholder="authorization number" value="TX3420985" id="authorization-id" disabled/>
   			<label>Authorization Amount</label>
-  			<label id="authorization_amount">$20,000</label>
+  			<label id="authorization-amount">$20,000</label>
   		</div>
   		<div class="details">
-  			<div class="drill_details">
+  			<div class="drill-details">
           <h3>Drill Details</h3>
           <table>
             <tr>
-              <td>Month</td>
-              <td>May</td>
+              <td class="month-label">Month</td>
+              <td class="month-value">May</td>
             </tr>
             <tr>
-              <td>Number of UTAs</td>
-              <td>21</td>
+              <td class="uta-label">Number of UTAs</td>
+              <td class="uta-value">21</td>
             </tr>
             <tr>
-              <td>Total Rooms</td>
-              <td>12</td>
+              <td class="room-label">Total Rooms</td>
+              <td class="room-value">12</td>
             </tr>
             <tr>
-              <td>Drill Period</td>
-              <td>16 May - 18 May 2014</td>
+              <td class="drill-period-label">Drill Period</td>
+              <td class="drill-period-value">16 May - 18 May 2014</td>
             </tr>
           </table>
   			</div>
-  			<div class="unit_details">
+  			<div class="unit-details">
           <h3>Unit Details</h3>
           <table>
             <tr>
-              <td>Unit SUC</td>
-              <td>XYZ</td>
+              <td class="suc-label">Unit SUC</td>
+              <td class="suc-value">XYZ</td>
             </tr>
             <tr>
-              <td>Unit POC</td>
-              <td>Adam Smith</td>
+              <td class="poc-label">Unit POC</td>
+              <td class="poc-value">Adam Smith</td>
             </tr>
             <tr>
-              <td>Phone</td>
-              <td>212 - 313 - 3456</td>
+              <td class="phone-label">Phone</td>
+              <td class="phone-value">212 - 313 - 3456</td>
             </tr>
             <tr>
-              <td>Area Room Rate</td>
-              <td>$100</td>
+              <td class="rate-label">Area Room Rate</td>
+              <td class="rate-value">$100</td>
             </tr>
           </table>
   			</div>
-  			<div class="hotel_details">
+  			<div class="hotel-details">
           <h3>Hotel Details</h3>
-          <table class="left_section">
+          <table class="left-section">
             <tr>
-              <td>Hotel Name</td>
-              <td>Marriott</td>
+              <td class="hotel-label">Hotel Name</td>
+              <td class="hotel-value">Marriott</td>
             </tr>
             <tr>
-              <td>Property ID</td>
-              <td>AB23456</td>
+              <td class="property-label">Property ID</td>
+              <td class="property-value">AB23456</td>
             </tr>
             <tr>
-              <td>Hotel POC</td>
-              <td>Julie Jones</td>
+              <td class="hotel-poc-label">Hotel POC</td>
+              <td class="hotel-poc-value">Julie Jones</td>
             </tr>
             <tr>
-              <td>Hotel Address</td>
-              <td>110 E 2nd Street 78701</td>
-            </tr>
-          </table>
-          <table class="right_section">
-            <tr>
-              <td>City</td>
-              <td>Austin, Texas</td>
-            </tr>
-            <tr>
-              <td>Phone</td>
-              <td>512 - 414 - 5477</td>
-            </tr>
-            <tr>
-              <td>Fax</td>
-              <td>512 - 414 - 5477</td>
-            </tr>
-            <tr>
-              <td>Email</td>
-              <td>info@marriott.com</td>
+              <td class="hotel-address-label">Hotel Address</td>
+              <td class="hotel-address-value">110 E 2nd Street 78701</td>
             </tr>
           </table>
-          
-  			</div>
+          <table class="right-section">
+            <tr>
+              <td class="city-label">City</td>
+              <td class="city-value">Austin, Texas</td>
+            </tr>
+            <tr>
+              <td class="hotel-phone-label">Phone</td>
+              <td class="hotel-phone-value">512 - 414 - 5477</td>
+            </tr>
+            <tr>
+              <td class="hotel-fax-label">Fax</td>
+              <td class="hotel-fax-value">512 - 414 - 5477</td>
+            </tr>
+            <tr>
+              <td class="hotel-email-label">Email</td>
+              <td class="hotel-email-value">info@marriott.com</td>
+            </tr>
+          </table>
+        </div>
   		</div>
+      <div class="personal">
+        <div class="personnel">
+          <h4>Personnel</h4>
+        </div>
+        <div class="blocks">
+          <h5>Totals</h5>
+          <div>
+            <label>Personnel</label>
+            <label>21</label>
+          </div>
+          <div>
+            <label>Single Rooms</label>
+            <label>3</label>
+          </div>
+          <div>
+            <label>Double Rooms</label>
+            <label>9</label>
+          </div>
+        </div>
+        <div class="blocks">
+          <h5>Males</h5>
+          <div>
+            <label>Total</label>
+            <label>16</label>
+          </div>
+          <div>
+            <label>Single Rooms</label>
+            <label>2</label>
+          </div>
+          <div>
+            <label>Double Rooms</label>
+            <label>7</label>
+          </div>
+        </div>
+        <div class="blocks">
+          <h5>Females</h5>
+          <div>
+            <label>Total</label>
+            <label>5</label>
+          </div>
+          <div>
+            <label>Single Rooms</label>
+            <label>1</label>
+          </div>
+          <div>
+            <label>Double Rooms</label>
+            <label>2</label>
+          </div>
+        </div>
+      </div>
    	</div>
   </body>
 </html>
