@@ -1,0 +1,139 @@
+body{
+	width: 1366px;
+	margin: auto;
+	font-family: 'Arimo';
+	background-color: #000;
+}
+
+.pop_up_wrapper{
+	width: 900px;
+	margin: auto;
+	margin-top: 80px;
+	background-color: #EEEEEE;
+	overflow: auto;
+	padding-bottom: 5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #fff;
+} 
+
+h2{
+	background-color: #0F4490;
+	color: #fff;
+	margin: 0px;
+	text-align: center;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.authorization_panel{
+	text-align: center;
+	padding: 10px;
+}
+
+.authorization_panel label{
+	margin: 0px 5px;
+	color: #717171;
+	font-weight: bold;
+}
+
+.authorization_panel input{
+	margin: 0px 35px 0px 5px;
+	font-size: 16px;
+}
+
+#authorization_amount{
+	font-size: 26px;
+	font-weight: bold;
+	color: #000;
+}
+
+.details{
+	text-align: center;
+	height: 170px;
+	margin: 5px;
+}
+
+.details div table{
+	font-size: 12px;
+}
+
+h3{
+	padding: 10px;
+	margin: 0px;
+	font-size: 16px;
+	text-align: left;
+	margin-bottom: 5px;
+}
+
+.drill_details{
+	margin: 4px;
+	margin-left: 5px;
+	float: left;
+	width: 27%;
+	height: inherit;
+	background-color: #E2E2E2;
+	font-family: Arimo;
+}
+
+.drill_details h3{
+	background-color: #8AC159;
+}
+
+.unit_details{
+	margin: 4px;
+	float: left;
+	width: 27%;
+	height: inherit;
+	background-color: #E2E2E2;
+	font-family: Arimo;
+}
+
+.unit_details table{
+	width: 98%;
+}
+
+.unit_details h3{
+	background-color: #51ABDF;
+}
+
+.hotel_details{
+	margin: 4px;
+	float: left;
+	width: 43%;
+	height: inherit;
+	background-color: #E2E2E2;
+	font-family: Arimo;
+}
+
+.right_section{
+	float: left;
+	width: 43%;
+}
+.left_section{
+	float: left;
+	width: 53%;
+}
+
+
+.hotel_details h3{
+	background-color: #C19648;
+}
+
+.details div table tr td:first-child{
+	color: #757575;
+	text-align: right;
+	padding: 4px 3px;
+	width: 51%;
+	vertical-align: top;
+	font-weight: bold;
+}
+
+.details div table tr td:last-child{
+	color: #000;
+	text-align: left;
+	padding: 4px 2px;
+	width: 49%;
+	vertical-align: top;
+	font-weight: bold;
+}

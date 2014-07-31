@@ -1,0 +1,104 @@
+<html>
+  <head>
+    <title>Lodging Request</title>
+    <meta content="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arimo">
+  </head>
+  <body>
+  	<div class="pop_up_wrapper">
+
+  		<h2>Preliminary Unit Level TXARNG IDT Lodging Request</h2>
+  		<div class="authorization_panel">
+  			<label>Authorization Number</label>
+  			<input type="text" placeholder="authorization number" value="TX3420985" id="authorization_id" disabled/>
+  			<label>Authorization Amount</label>
+  			<label id="authorization_amount">$20,000</label>
+  		</div>
+  		<div class="details">
+  			<div class="drill_details">
+          <h3>Drill Details</h3>
+          <table>
+            <tr>
+              <td>Month</td>
+              <td>May</td>
+            </tr>
+            <tr>
+              <td>Number of UTAs</td>
+              <td>21</td>
+            </tr>
+            <tr>
+              <td>Total Rooms</td>
+              <td>12</td>
+            </tr>
+            <tr>
+              <td>Drill Period</td>
+              <td>16 May - 18 May 2014</td>
+            </tr>
+          </table>
+  			</div>
+  			<div class="unit_details">
+          <h3>Unit Details</h3>
+          <table>
+            <tr>
+              <td>Unit SUC</td>
+              <td>XYZ</td>
+            </tr>
+            <tr>
+              <td>Unit POC</td>
+              <td>Adam Smith</td>
+            </tr>
+            <tr>
+              <td>Phone</td>
+              <td>212 - 313 - 3456</td>
+            </tr>
+            <tr>
+              <td>Area Room Rate</td>
+              <td>$100</td>
+            </tr>
+          </table>
+  			</div>
+  			<div class="hotel_details">
+          <h3>Hotel Details</h3>
+          <table class="left_section">
+            <tr>
+              <td>Hotel Name</td>
+              <td>Marriott</td>
+            </tr>
+            <tr>
+              <td>Property ID</td>
+              <td>AB23456</td>
+            </tr>
+            <tr>
+              <td>Hotel POC</td>
+              <td>Julie Jones</td>
+            </tr>
+            <tr>
+              <td>Hotel Address</td>
+              <td>110 E 2nd Street 78701</td>
+            </tr>
+          </table>
+          <table class="right_section">
+            <tr>
+              <td>City</td>
+              <td>Austin, Texas</td>
+            </tr>
+            <tr>
+              <td>Phone</td>
+              <td>512 - 414 - 5477</td>
+            </tr>
+            <tr>
+              <td>Fax</td>
+              <td>512 - 414 - 5477</td>
+            </tr>
+            <tr>
+              <td>Email</td>
+              <td>info@marriott.com</td>
+            </tr>
+          </table>
+          
+  			</div>
+  		</div>
+   	</div>
+  </body>
+</html>
