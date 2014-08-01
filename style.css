@@ -213,6 +213,13 @@ h5{
 	padding: 5px;
 }
 
+.dataTables_wrapper{
+
+	position: relative;
+	width: 100%;
+	display: inline-block;
+}
+
 .table{
 	border-collapse: collapse;
 	border-color: #666769;
@@ -226,7 +233,7 @@ h5{
 }
 
 .table tr th{
-	background-color: grey;
+	background-color: #64686B;
 	color: white;
 	font-size: 11px;
 	font-weight: bold;
@@ -317,14 +324,26 @@ button{
 	border-radius: 3px;
 }
 
-.table-pagination{
+.dataTables_length{
 	font-size: 12px;
 	font-weight: bold;
 	color: #777777;
-	margin: 0px 10px 5px 10px;
+	margin: 10px 10px 10px 0px;
+	width: 35%;
+	float: left;
+	position: absolute;
+	bottom: -1px;
+	left: 215px;
 }
 
-.dropdown{
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+ .dataTables_length{
+	bottom: -4px;
+	left: 180px;
+}
+}
+
+.dataTables_length label select{
 	font-size: 12px;
 	font-weight: bold;
 	color: #777777;
@@ -332,4 +351,62 @@ button{
 	border-style: none;
 	height: auto;
 	overflow-y: auto; 
+}
+
+#example_filter{
+	width: 99%;
+	float: right;
+	text-align: right;
+	padding: 10px 0px 10px 0px;
+}
+
+#example_filter label{
+	font-size: 12px;
+	font-weight: bold;
+	color: #777777;	
+}
+
+#example_filter label input{
+	background-color: #EEEEEE;
+	border-style: none;
+	margin-left: 10px;
+	width: 100px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #C9C9C9;
+}
+
+.dataTables_info, .dataTables_paginate{
+	font-size: 12px;
+	font-weight: bold;
+	color: #666769;	
+	margin: 10px 0px;
+	width: 50%;
+	float: left;
+}
+
+.dataTables_paginate{
+	text-align: right;
+}
+
+.dataTables_paginate > a{
+	padding: 8px;
+	cursor: pointer;
+}
+.dataTables_paginate span a{
+	padding: 3px 7px;
+	cursor: pointer;
+}
+
+#search-image{
+	height: 10px;
+	width: 10px;
+}
+
+.current{
+	background-color: #666769;	
+	color:#EEEEEE;
+	border-style: none;
+	border-radius: 20px;
+	padding: 5px 0px;
 }
