@@ -1,153 +1,296 @@
 <html>
-  <head>
-    <title>Lodging Request</title>
-    <meta content="UTF-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arimo">
-  </head>
-  <body>
-  	<div class="pop-up-wrapper">
+<head>
+  <title>Lodging Request</title>
+  <meta content="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arimo">
+</head>
+<body>
+ <div class="pop-up-wrapper">
 
-  		<h2>Preliminary Unit Level TXARNG IDT Lodging Request</h2>
-  		<div class="authorization-panel">
-  			<label>Authorization Number</label>
-  			<input type="text" placeholder="authorization number" value="TX3420985" id="authorization-id" disabled/>
-  			<label>Authorization Amount</label>
-  			<label id="authorization-amount">$20,000</label>
-  		</div>
-  		<div class="details">
-  			<div class="drill-details">
-          <h3>Drill Details</h3>
-          <table>
-            <tr>
-              <td class="month-label">Month</td>
-              <td class="month-value">May</td>
-            </tr>
-            <tr>
-              <td class="uta-label">Number of UTAs</td>
-              <td class="uta-value">21</td>
-            </tr>
-            <tr>
-              <td class="room-label">Total Rooms</td>
-              <td class="room-value">12</td>
-            </tr>
-            <tr>
-              <td class="drill-period-label">Drill Period</td>
-              <td class="drill-period-value">16 May - 18 May 2014</td>
-            </tr>
-          </table>
-  			</div>
-  			<div class="unit-details">
-          <h3>Unit Details</h3>
-          <table>
-            <tr>
-              <td class="suc-label">Unit SUC</td>
-              <td class="suc-value">XYZ</td>
-            </tr>
-            <tr>
-              <td class="poc-label">Unit POC</td>
-              <td class="poc-value">Adam Smith</td>
-            </tr>
-            <tr>
-              <td class="phone-label">Phone</td>
-              <td class="phone-value">212 - 313 - 3456</td>
-            </tr>
-            <tr>
-              <td class="rate-label">Area Room Rate</td>
-              <td class="rate-value">$100</td>
-            </tr>
-          </table>
-  			</div>
-  			<div class="hotel-details">
-          <h3>Hotel Details</h3>
-          <table class="left-section">
-            <tr>
-              <td class="hotel-label">Hotel Name</td>
-              <td class="hotel-value">Marriott</td>
-            </tr>
-            <tr>
-              <td class="property-label">Property ID</td>
-              <td class="property-value">AB23456</td>
-            </tr>
-            <tr>
-              <td class="hotel-poc-label">Hotel POC</td>
-              <td class="hotel-poc-value">Julie Jones</td>
-            </tr>
-            <tr>
-              <td class="hotel-address-label">Hotel Address</td>
-              <td class="hotel-address-value">110 E 2nd Street 78701</td>
-            </tr>
-          </table>
-          <table class="right-section">
-            <tr>
-              <td class="city-label">City</td>
-              <td class="city-value">Austin, Texas</td>
-            </tr>
-            <tr>
-              <td class="hotel-phone-label">Phone</td>
-              <td class="hotel-phone-value">512 - 414 - 5477</td>
-            </tr>
-            <tr>
-              <td class="hotel-fax-label">Fax</td>
-              <td class="hotel-fax-value">512 - 414 - 5477</td>
-            </tr>
-            <tr>
-              <td class="hotel-email-label">Email</td>
-              <td class="hotel-email-value">info@marriott.com</td>
-            </tr>
-          </table>
-        </div>
-  		</div>
-      <div class="personal">
-        <div class="personnel">
-          <h4>Personnel</h4>
-        </div>
-        <div class="blocks">
-          <h5>Totals</h5>
-          <div>
-            <label>Personnel</label>
-            <label>21</label>
-          </div>
-          <div>
-            <label>Single Rooms</label>
-            <label>3</label>
-          </div>
-          <div>
-            <label>Double Rooms</label>
-            <label>9</label>
-          </div>
-        </div>
-        <div class="blocks">
-          <h5>Males</h5>
-          <div>
-            <label>Total</label>
-            <label>16</label>
-          </div>
-          <div>
-            <label>Single Rooms</label>
-            <label>2</label>
-          </div>
-          <div>
-            <label>Double Rooms</label>
-            <label>7</label>
-          </div>
-        </div>
-        <div class="blocks">
-          <h5>Females</h5>
-          <div>
-            <label>Total</label>
-            <label>5</label>
-          </div>
-          <div>
-            <label>Single Rooms</label>
-            <label>1</label>
-          </div>
-          <div>
-            <label>Double Rooms</label>
-            <label>2</label>
-          </div>
-        </div>
-      </div>
-   	</div>
-  </body>
+  <h2>Preliminary Unit Level TXARNG IDT Lodging Request</h2>
+  <div class="authorization-panel">
+   <label>Authorization Number</label>
+   <input type="text" placeholder="authorization number" value="TX3420985" id="authorization-id" disabled/>
+   <label>Authorization Amount</label>
+   <label id="authorization-amount">$20,000</label>
+ </div>
+ <div class="details">
+   <div class="drill-details">
+    <h3>Drill Details</h3>
+    <table>
+      <tr>
+        <td class="month-label">Month</td>
+        <td class="month-value">May</td>
+      </tr>
+      <tr>
+        <td class="uta-label">Number of UTAs</td>
+        <td class="uta-value">21</td>
+      </tr>
+      <tr>
+        <td class="room-label">Total Rooms</td>
+        <td class="room-value">12</td>
+      </tr>
+      <tr>
+        <td class="drill-period-label">Drill Period</td>
+        <td class="drill-period-value">16 May - 18 May 2014</td>
+      </tr>
+    </table>
+  </div>
+  <div class="unit-details">
+    <h3>Unit Details</h3>
+    <table>
+      <tr>
+        <td class="suc-label">Unit SUC</td>
+        <td class="suc-value">XYZ</td>
+      </tr>
+      <tr>
+        <td class="poc-label">Unit POC</td>
+        <td class="poc-value">Adam Smith</td>
+      </tr>
+      <tr>
+        <td class="phone-label">Phone</td>
+        <td class="phone-value">212 - 313 - 3456</td>
+      </tr>
+      <tr>
+        <td class="rate-label">Area Room Rate</td>
+        <td class="rate-value">$100</td>
+      </tr>
+    </table>
+  </div>
+  <div class="hotel-details">
+    <h3>Hotel Details</h3>
+    <table class="left-section">
+      <tr>
+        <td class="hotel-label">Hotel Name</td>
+        <td class="hotel-value">Marriott</td>
+      </tr>
+      <tr>
+        <td class="property-label">Property ID</td>
+        <td class="property-value">AB23456</td>
+      </tr>
+      <tr>
+        <td class="hotel-poc-label">Hotel POC</td>
+        <td class="hotel-poc-value">Julie Jones</td>
+      </tr>
+      <tr>
+        <td class="hotel-address-label">Hotel Address</td>
+        <td class="hotel-address-value">110 E 2nd Street 78701</td>
+      </tr>
+    </table>
+    <table class="right-section">
+      <tr>
+        <td class="city-label">City</td>
+        <td class="city-value">Austin, Texas</td>
+      </tr>
+      <tr>
+        <td class="hotel-phone-label">Phone</td>
+        <td class="hotel-phone-value">512 - 414 - 5477</td>
+      </tr>
+      <tr>
+        <td class="hotel-fax-label">Fax</td>
+        <td class="hotel-fax-value">512 - 414 - 5477</td>
+      </tr>
+      <tr>
+        <td class="hotel-email-label">Email</td>
+        <td class="hotel-email-value">info@marriott.com</td>
+      </tr>
+    </table>
+  </div>
+</div>
+<div class="personal">
+  <div class="personnel">
+    <h4>Personnel</h4>
+  </div>
+  <div class="blocks">
+    <h5>Totals</h5>
+    <div>
+      <label class="total-room-label">Personnel</label>
+      <label class="total-room-value">21</label>
+    </div>
+    <div>
+      <label class="total-single-room-label">Single Rooms</label>
+      <label class="total-single-room-value">3</label>
+    </div>
+    <div>
+      <label class="total-double-room-label">Double Rooms</label>
+      <label class="total-double-room-value">9</label>
+    </div>
+  </div>
+  <div class="blocks">
+    <h5>Males</h5>
+    <div>
+      <label class="male-total-room-label">Total</label>
+      <label class="male-total-room-value">16</label>
+    </div>
+    <div>
+      <label class="male-single-room-label">Single Rooms</label>
+      <label class="male-single-room-value">2</label>
+    </div>
+    <div>
+      <label class="male-double-room-label">Double Rooms</label>
+      <label class="male-double-room-value">7</label>
+    </div>
+  </div>
+  <div class="blocks">
+    <h5>Females</h5>
+    <div>
+      <label class="female-total-room-label">Total</label>
+      <label class="female-total-room-value">5</label>
+    </div>
+    <div>
+      <label class="female-single-room-label">Single Rooms</label>
+      <label class="female-single-room-value">1</label>
+    </div>
+    <div>
+      <label class="female-double-room-label">Double Rooms</label>
+      <label class="female-double-room-value">2</label>
+    </div>
+  </div>
+</div>
+<div class="page-navigation-top">
+
+</div>
+<div class="table-wrapper">
+  <table class="table">
+    <tr>
+      <th class="confirmation-number">Hotel Confirmation Number</th>
+      <th class="suc">SUC</th>
+      <th class="last-name">Last Name</th>
+      <th class="first-name">First Name</th>
+      <th class="rank">Rank</th>
+      <th class="gender">M/F</th>
+      <th class="separate-room">Separate Room</th>
+      <th class="check-in">Check In</th>
+      <th class="check-out">Check Out</th>
+      <th class="days">Days</th>
+      <th class="auth-cost">Total auth cost per room <br/>$</th>
+      <th class="residence">Current Residence</th>
+      <th class="auth-letter">CDR Auth Letter Required</th>
+    </tr>
+    <tr>
+      <td class="confirmation-number">329192</td>
+      <td class="suc">0</td>
+      <td class="last-name">Smith</td>
+      <td class="first-name">January</td>
+      <td class="rank">PV2</td>
+      <td class="gender">F</td>
+      <td class="separate-room">Yes</td>
+      <td class="check-in">05/16/2014</td>
+      <td class="check-out">05/17/2014</td>
+      <td class="days">1</td>
+      <td class="auth-cost">100</td>
+      <td class="residence">AU, TX</td>
+      <td class="auth-letter">Yes</td>
+    </tr>
+    <tr>
+      <td class="confirmation-number">329192</td>
+      <td class="suc">0</td>
+      <td class="last-name">Jones</td>
+      <td class="first-name">Lillibeth</td>
+      <td class="rank">PFC</td>
+      <td class="gender">F</td>
+      <td class="separate-room">No</td>
+      <td class="check-in">05/16/2014</td>
+      <td class="check-out">05/17/2014</td>
+      <td class="days">1</td>
+      <td class="auth-cost">100</td>
+      <td class="residence">AU, TX</td>
+      <td class="auth-letter">No</td>
+    </tr>
+    <tr>
+      <td class="confirmation-number">329192</td>
+      <td class="suc">0</td>
+      <td class="last-name">Perry</td>
+      <td class="first-name">Mathew</td>
+      <td class="rank">PV2</td>
+      <td class="gender">M</td>
+      <td class="separate-room">No</td>
+      <td class="check-in">05/16/2014</td>
+      <td class="check-out">05/17/2014</td>
+      <td class="days">1</td>
+      <td class="auth-cost">100</td>
+      <td class="residence">AU, TX</td>
+      <td class="auth-letter">No</td>
+    </tr>
+    <tr>
+      <td class="confirmation-number">329192</td>
+      <td class="suc">0</td>
+      <td class="last-name">Eduardo</td>
+      <td class="first-name">Miguel</td>
+      <td class="rank">SFC</td>
+      <td class="gender">M</td>
+      <td class="separate-room">Yes</td>
+      <td class="check-in">05/16/2014</td>
+      <td class="check-out">05/17/2014</td>
+      <td class="days">1</td>
+      <td class="auth-cost">100</td>
+      <td class="residence">AU, TX</td>
+      <td class="auth-letter">No</td>
+    </tr>
+    <tr>
+      <td class="confirmation-number">329192</td>
+      <td class="suc">0</td>
+      <td class="last-name">Seth</td>
+      <td class="first-name">Jarvis</td>
+      <td class="rank">1SG</td>
+      <td class="gender">M</td>
+      <td class="separate-room">No</td>
+      <td class="check-in">05/16/2014</td>
+      <td class="check-out">05/17/2014</td>
+      <td class="days">1</td>
+      <td class="auth-cost">100</td>
+      <td class="residence">AU, TX</td>
+      <td class="auth-letter">No</td>
+    </tr>
+    <tr>
+      <td class="confirmation-number">329192</td>
+      <td class="suc">0</td>
+      <td class="last-name">Baker</td>
+      <td class="first-name">Tom</td>
+      <td class="rank">CSM</td>
+      <td class="gender">M</td>
+      <td class="separate-room">No</td>
+      <td class="check-in">05/16/2014</td>
+      <td class="check-out">05/17/2014</td>
+      <td class="days">1</td>
+      <td class="auth-cost">100</td>
+      <td class="residence">AU, TX</td>
+      <td class="auth-letter">No</td>
+    </tr>
+  </table>
+</div>
+<div class="table-pagination">
+  <label>Showing </label>
+  <label>06 </label>
+  <label>of </label>
+  <label>21  </label>
+  <select class="dropdown" size="1">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="11">11</option>
+    <option value="12">12</option>          
+  </select>
+  <label>  items per page</label>
+</div>
+<div class="page-navigation-bottom">
+
+</div>
+<button>
+  APPROVE
+</button>
+</div>
+<script type="text/javascript" href="jquery-2.1.1.js"><script>     
+<script
+type="text/javascript" href="jquery.dataTables.min.js"></script>
+<script type="text/javascript" href="script.js"></script>
+</body>
 </html>

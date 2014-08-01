@@ -9,6 +9,7 @@ body{
 	width: 900px;
 	margin: auto;
 	margin-top: 80px;
+	margin-bottom: 100px;
 	background-color: #EEEEEE;
 	overflow: auto;
 	padding-bottom: 5px;
@@ -203,4 +204,132 @@ h5{
 	text-align: center;
 	font-size: 16px;
 	padding-top: 6px;
+}
+
+.table-wrapper{
+	clear: both;
+	height: inherit;
+	margin: 15px 5px 5px 5px;
+	padding: 5px;
+}
+
+.table{
+	border-collapse: collapse;
+	border-color: #666769;
+	border-width: 1px;
+	border-style: solid;
+	text-align: left;
+}
+
+.table tr td:last-child{
+	border-color: #666769;
+}
+
+.table tr th{
+	background-color: grey;
+	color: white;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 3px 5px;
+	margin: 0px;
+	color: #EEE;
+}
+
+.table tr td{
+	background-color: #E2E2E2;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-color: #CACACA;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 6px 8px;
+	color: #131313;
+}
+
+.confirmation-number{
+	width: 12%;
+	text-align: center;
+}
+
+.suc{
+	width: 4%;	
+	text-align: center;
+}
+
+.last-name{
+	width: 10%;
+}
+
+.first-name{
+	width: 10%;
+}
+
+.rank{
+	width: 4%;
+}
+
+.gender{
+	width: 4%;
+	text-align: center;
+}
+
+.separate-room{
+	width: 8%;
+}
+
+.check-in{
+	width: 9%;
+	text-align: center;
+}
+
+.check-out{
+	width: 9%;
+	text-align: center;
+}
+
+.days{
+	width: 6%;
+	text-align: center;
+}
+
+.auth-cost{
+	width: 9%;
+	text-align: center;
+	padding-right: 80px;
+	padding-left: 80px;
+}
+
+.residence{
+	width: 5%;
+}
+
+.auth-letter{
+	width: 8%;
+}
+
+button{
+	margin: 0px 10px;
+	background-color: #0F4490;
+	padding: 6px 18px;
+	color: #EEEEEE;
+	font-weight: bold;
+	border-style: none;
+	border-radius: 3px;
+}
+
+.table-pagination{
+	font-size: 12px;
+	font-weight: bold;
+	color: #777777;
+	margin: 0px 10px 5px 10px;
+}
+
+.dropdown{
+	font-size: 12px;
+	font-weight: bold;
+	color: #777777;
+	overflow: scroll;
+	border-style: none;
+	height: auto;
+	overflow-y: auto; 
 }
