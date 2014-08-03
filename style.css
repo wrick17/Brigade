@@ -5,6 +5,19 @@ body{
 	background-color: #000;
 }
 
+.cross-button{
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff;
+	padding: 2px 6px;
+	border: 3px solid #fff;
+	border-radius: 30px;
+	position: relative;
+	top: 90px;
+	left: 1121px;
+	background-color: #000;
+}
+
 .pop-up-wrapper{
 	width: 900px;
 	margin: auto;
